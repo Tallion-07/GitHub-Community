@@ -1,6 +1,6 @@
 name: "General Issue"
 description: "File a General Issue"
-title: "[BUG:]"
+title: "[BUG:]<title>"
 body:
 - type: checkboxes
   attributes:
