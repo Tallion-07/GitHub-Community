@@ -1,6 +1,8 @@
 # Tallion o7 Public Repository Documentation
 
-Public Documents for Tallion_o7 Repository
+ [Top Contributors](https://github.com/Tallion-07/Tallion-o7-GitHub/graphs/contributors) - [Community](https://github.com/Tallion-07/Tallion-o7-GitHub/discussions/categories/general) - [Questions](https://github.com/Tallion-07/Tallion-o7-GitHub/discussions/categories/q-a) - [Issues](https://github.com/Tallion-07/Tallion-o7-GitHub/issues)
+
+[![GitHub Super-Linter](https://github.com/Tallion-07/Tallion-o7-GitHub/actions/workflows/super-linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 ## About
 
