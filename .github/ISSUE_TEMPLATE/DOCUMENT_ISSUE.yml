@@ -25,7 +25,7 @@ body:
       value: "you spelt it how?"
     validations:
       required: true
-   - type: textarea 
+  - type: textarea 
     id: logs
     attributes:
       label: Link to the Document that has the error
