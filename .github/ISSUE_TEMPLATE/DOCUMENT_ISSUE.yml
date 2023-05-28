@@ -1,0 +1,41 @@
+name: "\U0001F4C4 Document Issue"
+description: File a Document Issue
+title: "[Document:]"
+labels: ["Document", "Review"]
+assignees: "Tallion-o7"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this Document Issue!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: Where is it?
+    attributes:
+      label: Where is it:?
+      description: Also tell us, what is written incorrectly?
+      placeholder: Tell us what you see!
+      value: "you spelt it how?"
+    validations:
+      required: true
+   - type: textarea 
+    id: logs
+    attributes:
+      label: Link to the Document that has the error
+      description: Please copy and paste link.
+      render: "Shell"
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](./CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
