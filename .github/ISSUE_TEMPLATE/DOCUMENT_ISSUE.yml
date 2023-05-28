@@ -17,9 +17,9 @@ body:
     validations:
       required: false
   - type: textarea
-    id: Where is it?
+    id: Where is it
     attributes:
-      label: Where is it:?
+      label: Where is it?
       description: Also tell us, what is written incorrectly?
       placeholder: Tell us what you see!
       value: "you spelt it how?"
