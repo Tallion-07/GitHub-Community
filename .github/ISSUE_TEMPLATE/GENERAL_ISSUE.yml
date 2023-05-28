@@ -7,12 +7,12 @@ body:
     label: Have you completed the following?
     description: select what steps you have already done
     options:
-      label: Can you reproduce the problem in safe mode?
-      label: Are you running the latest version?
-      label: Did you check the debugging guide?
-      label: Did you check the FAQs on Discuss?
-      label: Are you reporting to the correct repository?
-      label: Did you perform a cursory search?
+    - label: Can you reproduce the problem in safe mode?
+    - label: Are you running the latest version?
+    - label: Did you check the debugging guide?
+    - label: Did you check the FAQs on Discuss?
+    - label: Are you reporting to the correct repository?
+    - label: Did you perform a cursory search?
 - type: textarea
   attributes:
     label: Current Behavior
@@ -44,7 +44,7 @@ body:
         - Node:
         - npm:
         - other
-    render: markdown
+    render: "Markdown"
   validations:
     required: false
 - type: textarea
@@ -56,11 +56,11 @@ body:
       Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
   validations:
     required: false
- - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](./CODE_OF_CONDUCT.md)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+- type: checkboxes
+  id: terms
+  attributes:
+    label: Code of Conduct
+    description: By submitting this issue, you agree to follow our [Code of Conduct](./CODE_OF_CONDUCT.md)
+    options:
+    - label: I agree to follow this project's Code of Conduct
+      required: true
