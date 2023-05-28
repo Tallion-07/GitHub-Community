@@ -1,0 +1,38 @@
+# Add 'repo' label to any root file changes
+repo:
+- '*'
+
+# The key is the name of the label in your repository that you want to add 
+# (eg: "merge conflict", "needs-updating") and the value is the path (glob) 
+# of the changed files (eg: src/**/*, tests/*.spec.js) or a match object.
+# - any: ['list', 'of', 'globs']
+#  all: ['list', 'of', 'globs']
+  
+# Add 'label1' to any changes within 'example' folder or any subfolders
+documentation:
+- any: Docs/*.md
+
+# Add 'label2' to any file changes within 'example2' folder
+emginering: .github/ISSUE_TEMPLATE/*.yml
+
+# Add label3 to any change to .txt files within the entire repository. Quotation marks are required for the leading asterisk
+# label3:
+# - '**/*.txt'
+
+# Add '@domain/core' label to any change within the 'core' package
+'@domain/core':
+- package/core/*
+- package/core/**/*
+
+# Add 'test' label to any change to *.spec.js files within the source dir
+test:
+- src/**/*.spec.js
+
+# Add 'source' label to any change to src files within the source dir EXCEPT for the docs sub-folder
+source:
+- any: ['src/**/*', '!src/docs/*']
+
+# Add 'frontend` label to any change to *.js files as long as the `main.js` hasn't changed
+frontend:
+- any: ['src/**/*.js']
+  all: ['!src/main.js']
