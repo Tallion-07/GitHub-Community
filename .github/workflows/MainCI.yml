@@ -27,7 +27,7 @@ jobs:
       
       #codecov runner
       - name: Upload coverage reports to Codecov
-      - uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v3
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
