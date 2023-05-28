@@ -7,12 +7,12 @@ body:
     label: Have you completed the following?
     description: select what steps you have already done
     options:
-      label: Can you reproduce the problem in safe mode?
-      label: Are you running the latest version?
-      label: Did you check the debugging guide?
-      label: Did you check the FAQs on Discuss?
-      label: Are you reporting to the correct repository?
-      label: Did you perform a cursory search?
+    - label: Can you reproduce the problem in safe mode?
+    - label: Are you running the latest version?
+    - label: Did you check the debugging guide?
+    - label: Did you check the FAQs on Discuss?
+    - label: Are you reporting to the correct repository?
+    - label: Did you perform a cursory search?
 - type: textarea
   attributes:
     label: Current Behavior
