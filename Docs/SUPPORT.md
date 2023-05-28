@@ -1,4 +1,4 @@
-# Support Resourses
+# Support Resources
 
 * GitHub Community: [Tallion_o7 Public Community Question Page](https://github.com/Tallion-07/Tallion-o7-Public-Documentation/discussions/categories/q-a)
 * StackOverflow: [Team WildCat on Stack Overflow Teams}(https://stackoverflowteams.com/c/team-wildcat/questions) using the tag `GitHub`
