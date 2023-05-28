@@ -1,3 +1,3 @@
-# Support Resourses
+# Support Resources
 
 **to be Updated**
