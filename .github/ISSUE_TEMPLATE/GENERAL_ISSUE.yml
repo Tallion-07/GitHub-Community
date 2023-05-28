@@ -1,0 +1,66 @@
+name: General Issue
+description: File a General Issue
+title: "[BUG:]"
+body:
+- type: checkboxes
+  attributes:
+    label: Have you completed the following?
+    description: select what steps you have already done
+    options:
+      label: Can you reproduce the problem in safe mode?
+      label: Are you running the latest version?
+      label: Did you check the debugging guide?
+      label: Did you check the FAQs on Discuss?
+      label: Are you reporting to the correct repository?
+      label: Did you perform a cursory search?
+- type: textarea
+  attributes:
+    label: Current Behavior
+    description: A concise description of what you're experiencing.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Steps To Reproduce
+    description: Steps to reproduce the behavior.
+    placeholder: |
+      1. In this environment...
+      2. With this config...
+      3. Run '...'
+      4. See error...
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Environment
+    description: |
+      examples:
+        - **OS**: Ubuntu 20.04
+        - **Node**: 13.14.0
+        - **npm**: 7.6.3
+        - other
+    value: |
+        - OS:
+        - Node:
+        - npm:
+        - other
+    render: markdown
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Anything else?
+    description: |
+      Links? References? Anything that will give us more context about the issue you are encountering!
+
+      Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](./CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
