@@ -17,7 +17,7 @@ on:
 # A workflow run is made up of one or more jobs that
 # can run sequentially or in parallel
 jobs:
-  run:
+  run01:
     # The type of runner that the job will run on
     runs-on: ${{ matrix.os }}
     strategy:
@@ -46,17 +46,3 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-
-      # Codecov report uploader
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          # dry_run :            # tests with not uploading report
-          directory: .github/coverage/reports
-          # files: !/workflows # optional
-          # flags: unittests # optional
-          name: codecov-umbrella # optional
-          fail_ci_if_error: true # optional (default = false)
-          verbose: true # optional (default = false)
-
