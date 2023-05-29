@@ -3,7 +3,7 @@
  [Top Contributors](https://github.com/Tallion-07/Tallion-o7-GitHub/graphs/contributors) - [Community](https://github.com/Tallion-07/Tallion-o7-GitHub/discussions/categories/general) - [Questions](https://github.com/Tallion-07/Tallion-o7-GitHub/discussions/categories/q-a) - [Issues](https://github.com/Tallion-07/Tallion-o7-GitHub/issues)
 
 [![GitHub Super-Linter](https://github.com/Tallion-07/Tallion-o7-GitHub/actions/workflows/super-linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
-![Codecov](https://img.shields.io/codecov/c/github/Tallion-07/Tallion-o7-GitHub?flag=Status.io&label=Codecov&token=782d64c4-ab6b-4bfb-8eba-45b3f0ef5573)
+[![codecov](https://codecov.io/gh/Tallion-07/Tallion-o7-GitHub/branch/main/graph/badge.svg?token=ZWTDKSTB31)](https://codecov.io/gh/Tallion-07/Tallion-o7-GitHub)
 
 ## About
 
