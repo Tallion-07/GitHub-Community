@@ -1,9 +1,19 @@
 # Tallion o7 Public GitHub Documentation
 
- [Top Contributors](https://github.com/Tallion-07/Tallion-o7-GitHub/graphs/contributors) - [Community](https://github.com/Tallion-07/Tallion-o7-GitHub/discussions/categories/general) - [Questions](https://github.com/Tallion-07/Tallion-o7-GitHub/discussions/categories/q-a) - [Issues](https://github.com/Tallion-07/Tallion-o7-GitHub/issues)
+ ----------------->[Top Contributors](https://github.com/Tallion-07/Tallion-o7-GitHub/graphs/contributors) - [Community](https://github.com/Tallion-07/Tallion-o7-GitHub/discussions/categories/general) - [Questions](https://github.com/Tallion-07/Tallion-o7-GitHub/discussions/categories/q-a) - [Issues](https://github.com/Tallion-07/Tallion-o7-GitHub/issues)<-------------
 
-[![GitHub Super-Linter](https://github.com/Tallion-07/Tallion-o7-GitHub/actions/workflows/super-linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
+### Repository Status
+
+---
+
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Tallion-07/Tallion-o7-GitHub/codeql.yml)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Tallion-07/Tallion-o7-GitHub/super-linter.yml)
 [![codecov](https://codecov.io/gh/Tallion-07/Tallion-o7-GitHub/branch/main/graph/badge.svg?token=ZWTDKSTB31)](https://codecov.io/gh/Tallion-07/Tallion-o7-GitHub)
+![GitHub](https://img.shields.io/github/license/Tallion-07/Tallion-o7-GitHub)
+![GitHub language count](https://img.shields.io/github/languages/count/Tallion-07/Tallion-o7-GitHub)
+
+---
+![Twitter Follow](https://img.shields.io/twitter/follow/Tallion_o7?style=social)
 
 ## About
 
