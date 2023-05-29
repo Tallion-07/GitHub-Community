@@ -1,4 +1,5 @@
-name: Running Code Coverage
+---
+name: Code Coverage
 
 on:
   # Triggers the workflow on push or pull request events

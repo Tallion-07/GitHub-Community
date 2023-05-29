@@ -1,6 +1,7 @@
+---
 # Add 'repo' label to any root file changes
 repo:
-- '*'
+  - ['*']
 
 # The key is the name of the label in your repository that you want to add 
 # (eg: "merge conflict", "needs-updating") and the value is the path (glob) 
@@ -10,7 +11,7 @@ repo:
   
 # Add 'tests' to any changes within '__tests__' folder or any subfolders
 tests:
-- __tests__/**/*
+  - __tests__/**/*
 
 # Add 'label2' to any file changes within 'example2' folder
 engineering: .github/ISSUE_TEMPLATE/*.yml
@@ -18,38 +19,38 @@ engineering: .github/ISSUE_TEMPLATE/*.yml
 # Add documentation to any change to .md files within the entire repository.
 #  Quotation marks are required for the leading asterisk
 documentation:
-- '**/*.md'
+  - ['**/*.md']
 
 src docs:
-- any: ['src/docs/*']
+  - any: ['src/docs/*']
 
 # Add '@domain/core' label to any change within the 'Frontend core' package
-'@domain/core':
-- Package/Frontend core/*
-- Package/Frontend core/**/*
+domain/core:
+  - Package/Frontend core/*
+  - Package/Frontend core/**/*
 
 # Add '@server/core' label to any change withing the 'Server core' package
-'@server/core':
-- Package/Backend core/*
-- Package/Backend core/**
+server/core:
+  - Package/Backend core/*
+  - Package/Backend core/**
 
 # Add 'html5' label to any change to *.html files within the source dir
 html5:
-- src/**/*.html
+  - src/**/*.html
 
 # Add 'source' label to any change to src files within the source dir 
 # EXCEPT for the docs sub-folder
 source:
-- any: ['src/**/*', '!src/docs/*']
+  - any: ['src/**/*', '!src/docs/*']
 
 # Add 'frontend` label to any change to *.js files as long as 
 # the `main.js` hasn't changed
 frontend:
-- any: ['src/**/*.js']
-  all: ['!src/main.js']
+  - any: ['src/**/*.js']
+    all: ['!src/main.js']
 
 # Add 'backend` label to any change to *.py files as long as 
 # the `main.py` hasn't changed
 backend:
-- any: ['src/**/*.py']
-  all: ['!src/main.py']
+  - any: ['src/**/*.py']
+    all: ['!src/main.py']
