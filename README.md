@@ -1,14 +1,15 @@
-# Tallion o7 Public Repository Documentation
+# Tallion o7 Public GitHub Documentation
 
  [Top Contributors](https://github.com/Tallion-07/Tallion-o7-GitHub/graphs/contributors) - [Community](https://github.com/Tallion-07/Tallion-o7-GitHub/discussions/categories/general) - [Questions](https://github.com/Tallion-07/Tallion-o7-GitHub/discussions/categories/q-a) - [Issues](https://github.com/Tallion-07/Tallion-o7-GitHub/issues)
 
 [![GitHub Super-Linter](https://github.com/Tallion-07/Tallion-o7-GitHub/actions/workflows/super-linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
 ![Codecov](https://img.shields.io/codecov/c/github/Tallion-07/Tallion-o7-GitHub?flag=Status.io&label=Codecov&token=782d64c4-ab6b-4bfb-8eba-45b3f0ef5573)
+
 ## About
 
 ---
 
-A (currently) Private Repo which contains the Projects Listed below.
+A (currently) Private Repository which contains the Projects Listed below.
 I am using this Repository to learn about various things regarding Project Management, Documentation, Planning, Programming, Testing and Implementation and I am currently working on the following areas:
 
 * Properly setting up my personal repository.
@@ -37,10 +38,8 @@ Tallion o7
 
 ### Public Projects
 
-* [Public Documentation for Tallion's Repository](https://github.com/Tallion-07/Tallion-o7-Public-Documentation)
+* [Public Documentation for Tallion's Repository](https://github.com/Tallion-07/Tallion-o7-GitHub-Documentation)
   * This Current Depository used for all Public interaction
-* [Code and Function Test Area](https://github.com/Tallion-07/VS-Code-Test-Area)
-  * Practise and testing area used for trying out VS Code Features, and extensions, without screwing up current projects for when it all goes horribly wrong.
 * [Issues Templates (Forked Repository) for Custom Issue and Pull Requests](https://github.com/Tallion-07/github-issue-templates)
   * A forked Repository of custom templates for creating your own customised Issue and Pull Request layouts.
   * Original Repository is at [stevemao/github-issue-templates](https://github.com/stevemao/github-issue-templates).
