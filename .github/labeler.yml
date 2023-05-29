@@ -8,31 +8,48 @@ repo:
 # - any: ['list', 'of', 'globs']
 #  all: ['list', 'of', 'globs']
   
-# Add 'label1' to any changes within 'example' folder or any subfolders
-documentation:
-- any: Docs/*.md
+# Add 'tests' to any changes within '__tests__' folder or any subfolders
+tests:
+- __tests__/**/*
 
 # Add 'label2' to any file changes within 'example2' folder
-emginering: .github/ISSUE_TEMPLATE/*.yml
+engineering: .github/ISSUE_TEMPLATE/*.yml
 
-# Add label3 to any change to .txt files within the entire repository. Quotation marks are required for the leading asterisk
-# label3:
-# - '**/*.txt'
+# Add documentation to any change to .md files within the entire repository.
+#  Quotation marks are required for the leading asterisk
+documentation:
+- '**/*.md'
 
-# Add '@domain/core' label to any change within the 'core' package
+src docs:
+- any: ['src/docs/*']
+
+# Add '@domain/core' label to any change within the 'Frontend core' package
 '@domain/core':
-- package/core/*
-- package/core/**/*
+- Package/Frontend core/*
+- Package/Frontend core/**/*
 
-# Add 'test' label to any change to *.spec.js files within the source dir
-test:
-- src/**/*.spec.js
+# Add '@server/core' label to any change withing the 'Server core' package
+'@server/core':
+- Package/Backend core/*
+- Package/Backend core/**
 
-# Add 'source' label to any change to src files within the source dir EXCEPT for the docs sub-folder
+# Add 'html5' label to any change to *.html files within the source dir
+html5:
+- src/**/*.html
+
+# Add 'source' label to any change to src files within the source dir 
+# EXCEPT for the docs sub-folder
 source:
 - any: ['src/**/*', '!src/docs/*']
 
-# Add 'frontend` label to any change to *.js files as long as the `main.js` hasn't changed
+# Add 'frontend` label to any change to *.js files as long as 
+# the `main.js` hasn't changed
 frontend:
 - any: ['src/**/*.js']
   all: ['!src/main.js']
+
+# Add 'backend` label to any change to *.py files as long as 
+# the `main.py` hasn't changed
+backend:
+- any: ['src/**/*.py']
+  all: ['!src/main.py']
