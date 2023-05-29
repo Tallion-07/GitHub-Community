@@ -1,5 +1,5 @@
 ---
-Name: Pull Request
+name: Pull Request
 description: required for requesting a pull request
 assignees:
 label: Pull request
