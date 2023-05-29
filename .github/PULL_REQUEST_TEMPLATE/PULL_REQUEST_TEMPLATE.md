@@ -1,42 +1,28 @@
 # Pull Request
 
-name: Pull Request
-description: required for requesting a pull request
-assignees:
-label: Pull request
-title: Pull request
-body:
+## Required for requesting a pull request
 
-- type: markdown
-  attributes:
-    value: "## Welcome!"
-- type: markdown
-  attributes:
-    value: |
-      Thanks for taking the time to fill out this request!
+Thanks for taking the time to fill out this request
+
+---  
+
+### Pull Request Conditions
+
+'What types of changes does your code introduce?' - 'Please put an 'x' in all the boxes that apply!'
+
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds -functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to change)
+- [ ] My change requires a change to the documentation.
+- [ ] I have updated the documentation accordingly.
+- [ ] I have added tests to cover my changes.
+- [ ] All new and existing tests passed.
   
-- type: checkboxes
-  id: Pull-request-conditions
-  attributes:
-    label: What types of changes does your code introduce? 
-    description: Put an `x` in all the boxes that apply!
-    options:
-      - label: Bug fix (non-breaking change which fixes an issue)
-      - label: New feature (non-breaking change which adds functionality)
-      - label: Breaking change (fix or feature that would cause existing functionality to change)
-      - label: My change requires a change to the documentation.
-      - label: I have updated the documentation accordingly.
-      - label: I have added tests to cover my changes.
-      - label: All new and existing tests passed.
-- type: checkboxes
-  id: terms
-  attributes:
-    label: Code of Conduct
-    description: By submitting this issue, you agree to follow our [Code of Conduct](./CODE_OF_CONDUCT.md)
-    options:
-      - label: I have read the **CONTRIBUTING** document.
-        required: true
-      - label: My code follows the code style of this project.
-        required: true
-      - label: I agree to follow this project's Code of Conduct
-        required: true
+### Your Agreement
+
+By Submitting this Pull Request, you agree to follow our [Code of Conduct](./CODE_OF_CONDUCT.md)
+
+- [ ] I have read the **CONTRIBUTING** document.
+- [ ] My code follows the **code style** of this project.
+- [ ] I agree to follow this project's **Code of Conduct**
+- [ ] I Lied and I didn't read any of the **boring** crap as it's a minor problem!
