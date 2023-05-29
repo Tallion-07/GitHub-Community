@@ -1,3 +1,16 @@
 # References
+
 ## Links
-[Emoji Icons unicode](https://unicode.org/Public/emoji/15.0/emoji-test.txt)
+
+### CI/CD
+
+#### Codecov
+
+* [Codecov GitHub Tutorial](https://docs.codecov.com/docs/github-tutorial)
+* [Codecov Git Action](https://github.com/marketplace/actions/codecov)
+
+---
+
+### Misc
+
+* [Emoji Icons unicode](https://unicode.org/Public/emoji/15.0/emoji-test.txt)
