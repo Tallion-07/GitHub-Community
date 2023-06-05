@@ -1,4 +1,3 @@
-*.code-workspace
 *.py[oc]
 __pycache__
 .coverage
