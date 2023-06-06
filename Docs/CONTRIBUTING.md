@@ -1,4 +1,4 @@
-# Welcome to Tallion_o7's Repo contribution guide <!-- omit in toc -->
+# Contribution Guide - start here<!-- omit in toc -->
 
 Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [The Contributors Page](./Contributors.md) :sparkles:.
 
@@ -8,6 +8,8 @@ In this guide you will get an overview of the contribution workflow from opening
 
 Use the table of content to get to a specific section of this guide quickly.
 
+---
+
 ## New contributor guide
 
 To get an overview of the project, read the [README](README.md). Here are some resources to help you get started with open source contributions:
@@ -16,10 +18,12 @@ To get an overview of the project, read the [README](README.md). Here are some r
 - [Set up Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
 - [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
 - [Collaborating with pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests)
+  
+    ---
 
 ## Getting started
 
-For information on how we write our markdown files, see [the GitHub Markdown reference](https://github.com/github/docs/blob/main/contributing/content-markup-reference.md).
+For information on how we write our Markdown files, see [the GitHub Markdown reference](https://github.com/github/docs/blob/main/contributing/content-markup-reference.md).
 
 Check to see what [types of contributions](./CONTRIBUTIONS.md) we accept before making changes. Some of them don't even require writing a single line of code :sparkles:.
 
@@ -51,15 +55,17 @@ For more information about using a codespace for working on GitHub documentation
 
 - Using GitHub Desktop:
   - [Getting started with GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/getting-started-with-github-desktop) will guide you through setting up Desktop.
-  - Once Desktop is set up, you can use it to [fork the repo](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop)!
+  - Once Desktop is set up, you can use it to [fork the repository](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop)!
 - Using the command line:
-  - [Fork the repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until you're ready to merge them.
+  - [Fork the repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until you're ready to merge them.
 
 1. Create a working branch and start with your changes!
 
 ### Commit your update
 
 Commit the changes once you are happy with them. Don't forget to [self-review](/Docs/Self-review.md) to speed up the review process:zap:.
+
+---
 
 ### Pull Request
 
@@ -80,3 +86,7 @@ Congratulations :tada::tada: The WildCat team thanks you :sparkles:.
 Once your PR is merged, your contributions will be publicly visible on the [Tallion-o7-GitHub](https://github.com/Tallion-07/Tallion-o7-GitHub/graphs/contributors).
 
 Now that you are part of the Team WildCat docs community, see how else you can [contribute to the docs](./Contributing.md).
+
+---
+
+[Back to Contents](/README.md#contents)

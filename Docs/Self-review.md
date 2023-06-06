@@ -10,3 +10,7 @@ For content changes, make sure that you:
 - [ ] Review the entire pull request using the [GutHub - translations guide for writers](https://github.com/github/docs/blob/main/contributing/translations-for-writers.md).
 - [ ] Copy-edit the changes for grammar, spelling, and adherence to the [style guide](https://github.com/github/docs/blob/main/contributing/content-style-guide.md).
 - [ ] If there are any failing checks in your PR, troubleshoot them until they're all passing.
+  
+  ---
+
+[Back to Contents](/README.md#contents)
