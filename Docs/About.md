@@ -8,14 +8,16 @@ I am also using these Repositories to learn about various things regarding Proje
 * Managing Multiple projects and staying organised.
 * Planning projects that what I am working on.
 * Learning the various Tools that are Freely available (FOSS) where Possible.
-* Full and proper documentation of what I am doing and what I have done.
-* Visual Studio Code:
-  * Properly Learning about how to use:
-    * Extensions
-    * Software settings
-    * Functionality
-    * Testing
-    * Environments
+* Full and proper documentation of what I am doing and what I have done. 
+  
+  Visual Studio Code:
+  Properly Learning about how to use:
+   * Extensions
+   * Software settings
+   * Functionality
+   * Testing
+   * Environments
+    
   
 Eventually some of the Things I learn and document will end up on this Repository as information for the General Public, with all personal security information (naturally) removed.
 
