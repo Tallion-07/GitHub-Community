@@ -1,6 +1,6 @@
 # About
 
-All of My Repositories listed on the [Readme](/README.md) show all of the Projects I am currently working on (when time permits) .
+All of My Repositories listed on the [Readme](/README.md#contents) show all of the Projects I am currently working on (when time permits) .
 
 I am also using these Repositories to learn about various things regarding Project Management, Documentation, Planning, Programming, Testing and Implementation, so I am currently focusing on the following areas:
 
