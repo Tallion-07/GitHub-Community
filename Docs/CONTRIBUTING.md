@@ -23,7 +23,7 @@ To get an overview of the project, read the [README](README.md). Here are some r
 
 ## Getting started
 
-For information on how we write our markdown files, see [the GitHub Markdown reference](https://github.com/github/docs/blob/main/contributing/content-markup-reference.md).
+For information on how we write our Markdown files, see [the GitHub Markdown reference](https://github.com/github/docs/blob/main/contributing/content-markup-reference.md).
 
 Check to see what [types of contributions](./CONTRIBUTIONS.md) we accept before making changes. Some of them don't even require writing a single line of code :sparkles:.
 
@@ -55,9 +55,9 @@ For more information about using a codespace for working on GitHub documentation
 
 - Using GitHub Desktop:
   - [Getting started with GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/getting-started-with-github-desktop) will guide you through setting up Desktop.
-  - Once Desktop is set up, you can use it to [fork the repo](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop)!
+  - Once Desktop is set up, you can use it to [fork the repository](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop)!
 - Using the command line:
-  - [Fork the repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until you're ready to merge them.
+  - [Fork the repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until you're ready to merge them.
 
 1. Create a working branch and start with your changes!
 
