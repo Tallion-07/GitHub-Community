@@ -8,7 +8,7 @@ on:
 
 env:
   URL: https://github.com/Tallion-07/GitHub-Community
-  FILENAME: $(date '+%Y_%m_%d')_report.yaml
+  FILENAME: report.yaml
   CONFIG: config.json
 
 jobs:
