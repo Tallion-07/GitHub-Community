@@ -6,7 +6,7 @@
 
 ### GitHub
 
-[Github Actions Guide](https://docs.github.com/en/actions)
+[GitHub Actions Guide](https://docs.github.com/en/actions)
 
 ---
 
