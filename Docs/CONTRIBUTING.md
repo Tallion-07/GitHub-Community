@@ -1,4 +1,4 @@
-# Welcome to Tallion_o7's Repo contribution guide <!-- omit in toc -->
+# Contribution Guide - start here<!-- omit in toc -->
 
 Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [The Contributors Page](./Contributors.md) :sparkles:.
 
@@ -8,6 +8,8 @@ In this guide you will get an overview of the contribution workflow from opening
 
 Use the table of content to get to a specific section of this guide quickly.
 
+---
+
 ## New contributor guide
 
 To get an overview of the project, read the [README](README.md). Here are some resources to help you get started with open source contributions:
@@ -16,6 +18,8 @@ To get an overview of the project, read the [README](README.md). Here are some r
 - [Set up Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
 - [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
 - [Collaborating with pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests)
+  
+    ---
 
 ## Getting started
 
@@ -61,6 +65,8 @@ For more information about using a codespace for working on GitHub documentation
 
 Commit the changes once you are happy with them. Don't forget to [self-review](/Docs/Self-review.md) to speed up the review process:zap:.
 
+---
+
 ### Pull Request
 
 When you're finished with the changes, create a pull request, also known as a PR.
@@ -80,3 +86,7 @@ Congratulations :tada::tada: The WildCat team thanks you :sparkles:.
 Once your PR is merged, your contributions will be publicly visible on the [Tallion-o7-GitHub](https://github.com/Tallion-07/Tallion-o7-GitHub/graphs/contributors).
 
 Now that you are part of the Team WildCat docs community, see how else you can [contribute to the docs](./Contributing.md).
+
+---
+
+[Back to Contents](/README.md#contents)
